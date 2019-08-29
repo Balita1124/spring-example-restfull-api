@@ -258,7 +258,7 @@ public class SwaggerConfig {
 }
 ```
 
-Il faut visiter http://localhost:8080/spring-security-rest/api/v2/api-docs pour verifier si ca marche.
+Il faut visiter http://localhost:8080/v2/api-docs pour verifier si ca marche.
 
 #### _III. Swagger_
 
@@ -274,7 +274,7 @@ Une interface utilisateur qui permet d'interagir avec swagger
 </dependency>
 ```
 
-IL faut visiter http://localhost:8080/your-app-root/swagger-ui.html pour voir si ca marche
+IL faut visiter http://localhost:8080/swagger-ui.html pour voir si ca marche
 
 **2. Filtrer l'api à exposer**
 
