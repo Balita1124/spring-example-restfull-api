@@ -1,5 +1,11 @@
-## Architecture
+## Installation
 
+* `$ git clone https://github.com/Balita1124/spring-example-restfull-api.git`
+* `$ cd spring-example-restfull-api`
+* `$ mvn install`
+* `$ mvn spring-boot:run`   _(ou utiliser l'IDE)_
+
+## Architecture
 #### _I. Base_
 
 **1. Aller a https://start.spring.io/**
