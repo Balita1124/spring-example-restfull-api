@@ -35,7 +35,7 @@ public class PersonController {
         );
     }
 
-    @PostMapping(value = "persons", name = "create person")
+    @PostMapping(value = "persons", name = "Create person")
     public ApiResponse createPerson(@RequestBody @Valid PersonRequest personRequest, BindingResult bindingResult) {
         if (bindingResult.hasErrors()) {
             ErrorSection es = new ErrorSection(personRequest, bindingResult.getAllErrors());
@@ -55,7 +55,7 @@ public class PersonController {
         );
     }
 
-    @PutMapping(value = "persons/{personId}", name = "update person")
+    @PutMapping(value = "persons/{personId}", name = "Update person")
     public ApiResponse updatePerson(@PathVariable(value = "personId") Integer personId, @RequestBody @Valid PersonRequest personRequest, BindingResult bindingResult) {
 
         Person currentPerson = personService.findPersonById(personId);
